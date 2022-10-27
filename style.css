@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header-content .more-inf {
+.header-content .header-content__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -75,7 +75,7 @@ button {
 
 /* Heading */
 .todo-header,
-.new-task-label {
+.main-content__add-element__new-task-label{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +103,7 @@ button {
 }
 
 /* New Task */
-.new-task-label {
+.main-content__add-element__new-task-label {
   display: block;
   margin: 0 0 20px;
 }
