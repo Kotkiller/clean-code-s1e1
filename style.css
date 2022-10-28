@@ -99,6 +99,10 @@ h3 {
   color: #888;
 }
 
+.main__incomplete-tasks__edit > .task {
+  display: none;
+}
+
 .main__incomplete-tasks__edit__input-task:focus {
   color: #333;
 }
@@ -153,6 +157,11 @@ h3 {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+}
+
+.main__incomplete-tasks__edit__button-remove {
+  border: none;
+  background-color: #f8f8f8;
 }
 
 .main__incomplete-tasks__edit__button-remove > .main__incomplete-tasks__edit__button-remove__img:hover {
